@@ -1,0 +1,139 @@
+/* 
+  Localizable.strings
+  MaidMe
+
+  Created by Viktor on2/15/16.
+  Copyright © 2016 Mac. All rights reserved.
+*/
+
+// Register - Validation
+"invalidEmailTitle" = "Invalid Email";
+"invalidEmailMessage" = "The email address is not correct";
+
+"invalidPasswordTitle" = "Invalid Password";
+"invalidPasswordMessage" = "The password is invalid, must be at least 6 in length";
+
+"notMatchedPasswordTitle" = "Password not matched";
+"notMatchedPasswordMessage" = "The confirmed password is not matched";
+
+"inValidNameTitle" = "Invalid user name";
+"inValidNameMessage" = "The user name is too long";
+
+"inValidPhoneNumberTitle" = "Invalid phone number";
+"inValidPhoneNumberMessage" = "Phone number is not correct";
+
+"invalidAreaTitle" = "Invalid Area";
+"invalidAreaMessage" = "Our service is not available at your area, please select a default one from the list";
+
+// Connection failed
+"connectionFailedTitle" = "Information Message";
+"connectionFailedMessage" = "Your request can't be proceeded at this moment. Please try again later.";
+
+"connectToServerFailedMessage" = "Could not connect to the server";
+
+// Internal error
+"internalErrorTitle" = "Information Message";
+"internalErrorMessage" = "The app has suffered an internal error. Please try again later.";
+
+// No internet connection
+"noInternetConnectionTitle" = "No Internet Connection";
+"noInternetConnectionMessage" = "Sorry you are not connected to the Internet. Please check it and try again.";
+
+// Alert button
+"okButton" = "OK";
+"tryAgainButton" = "Try again";
+"cancelButton" = "Cancel";
+"callButton" = "Call";
+
+// Timeout
+"timeoutTitle" = "Connection Problem";
+"timeoutMessage" = "The request timed out";
+
+// Login Fail
+"loginFailedTitle" = "Login Failed";
+"defaultArea" = "Default area";
+
+// Register Fail
+"registerFailedTitle" = "Register Failed";
+
+
+
+"customersBuilding" = " Building Name*";
+"customersAppartment" = "Apartment/ Villa/ Office*";
+"customersArea" = " Area*";
+"customersLandmark" = "Landmark";
+"notMatchAddressTitle" = "Address not match";
+"notMatchAddressMessage" = "Building name or Area do not match";
+
+
+// Right Menu
+"logout" = "Log out";
+"setting" = "Setting";
+"menuNewBooking" = "New Booking";
+"menuPersonalDetails" = "Personal Details";
+"menuBookingHistory" = "Booking History";
+"menuChangePassword" = "Change Password";
+
+// Hour text
+"hour" = "H";
+"hours" = "H";
+
+// Booking conditions
+"allServices" = "All services";
+
+"invalidDateTitle" = "Invalid Date";
+"invalidDateMessage" = "Start time must be greater than current time at least one hour";
+
+// Available worker
+"availableTime" = "Today";
+"availabelTomorrow" = "Tomorrow";
+
+// Billing Address
+"country" = "Country";
+"getAreaErrorMessage" = "Cannot get your default area. Please try again later.";
+
+// Card Info
+"invalidCardTitle" = "Invalid Card";
+"invalidCardNumberMessage" = "Card number is invalid";
+"invalidCardCVVMessage" = "Card CVV number is invalid";
+"invalidCardExpiryDateMessage" = "Card expiry date is invalid, it must be greater than the current time";
+"invalidCardOwnerNameMessage" = "Card holder name is invalid, it can only contain characters";
+
+// Default country
+"defaultCountry" = "United Arab Emirates";
+
+// Booking summary
+"cardEnding" = "Ending: ";
+"currency" = "AED";
+
+// Booking history
+"upcomingBookings" = "UPCOMING BOOKINGS";
+"cleaningHistory" = "CLEANING HISTORY";
+"noPhoneNumberMessage" = "This maid hasn't provide her phone number yet";
+
+// Payment
+"invalidCardMessage" = "Card info is invalid";
+"paymentFailedTitle" = "Payment Failed";
+"asteriskRequiredField" = "Asterisk is required";
+
+// Cancel booking
+"noRefundFeeMessage" = "*Refund free";
+"refundFeeMessage" = "% fee will be charged";
+"cancelSuccessTitle" = "Cancel Successfully";
+"cancelSuccessMessage" =  "Your booking is canceled successfully, you have been refunded back ";
+
+// Update info
+"updateSuccessTitle" = "Information";
+"updateSuccessMessage" = "Please login again with your new password";
+"updateProfileSuccess" = "Your profile is updated successfully";
+// Ratings and comments
+"review" = "REVIEWS ";
+"service" = "Service: ";
+
+// Reset password
+"resetSuccessMessage" = "Your new password has been sent to your email";
+
+//remove address
+//"removeSuccessMessage" = "Your saved address is removed successfully"
+//remove place
+"confirmDelete" = "Do you want to delete this place?";

@@ -1,0 +1,83 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Crashlytics (3.9.3):
+    - Fabric (~> 1.7.2)
+  - CryptoSwift (0.8.0)
+  - EasyTipView (1.0.2)
+  - Fabric (1.7.2)
+  - GoogleMaps (2.5.0):
+    - GoogleMaps/Maps (= 2.5.0)
+  - GoogleMaps/Base (2.5.0)
+  - GoogleMaps/Maps (2.5.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.5.0):
+    - GoogleMaps (= 2.5.0)
+    - GooglePlaces (= 2.5.0)
+  - GooglePlaces (2.5.0):
+    - GoogleMaps/Base (= 2.5.0)
+  - GooglePlacesSearchController (0.1.7)
+  - PhoneNumberKit (2.1.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 2.1.0)
+    - PhoneNumberKit/UIKit (= 2.1.0)
+  - PhoneNumberKit/PhoneNumberKitCore (2.1.0)
+  - PhoneNumberKit/UIKit (2.1.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - ReachabilitySwift (4.1.0)
+  - Realm (3.0.2):
+    - Realm/Headers (= 3.0.2)
+  - Realm/Headers (3.0.2)
+  - RealmSwift (3.0.2):
+    - Realm (= 3.0.2)
+  - SDVersion (4.3.2)
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
+  - SSKeychain (1.4.1)
+  - SVProgressHUD (2.2.2)
+  - SwiftyJSON (4.0.0)
+  - SWTableViewCell (0.3.7)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.6)
+  - Crashlytics
+  - CryptoSwift (~> 0.8)
+  - EasyTipView (~> 1.0)
+  - Fabric (~> 1.6)
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - GooglePlacesSearchController
+  - PhoneNumberKit (~> 2.1)
+  - ReachabilitySwift (~> 4.1)
+  - RealmSwift (~> 3.0)
+  - SDVersion
+  - SDWebImage
+  - SSKeychain
+  - SVProgressHUD
+  - SwiftyJSON (~> 4.0)
+  - SWTableViewCell (~> 0.3.7)
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Crashlytics: dbb07d01876c171c5ccbdf7826410380189e452c
+  CryptoSwift: f81907430ebbe38b8404b4f6fb40f3c576a8755f
+  EasyTipView: b93a19be981cc2221d6d7191d49872f547e0bebf
+  Fabric: 9cd6a848efcf1b8b07497e0b6a2e7d336353ba15
+  GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  GooglePlacePicker: 1573e644ab54564d95c2643edc0f29091609e966
+  GooglePlaces: dd70d9d71ea1c7944846afe67de3712c99b30a77
+  GooglePlacesSearchController: 0ac4fedf1582d2e44329c417a6eed80ccf62d716
+  PhoneNumberKit: 62003f40ff75315fd3738286558bc365365ac222
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  Realm: 6f23fd1f178a09342eac21bfa7c2bf4312a7a180
+  RealmSwift: 695393add1b8f9d5fa75dd16e6355cf3935f71e2
+  SDVersion: 18f32c835c1543611fcfae3c6accd9a04b90597e
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+
+PODFILE CHECKSUM: 3d7ae70cfdd6fc4cb3b32b28e173d707f39ce830
+
+COCOAPODS: 1.4.0.beta.2

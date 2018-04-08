@@ -1,0 +1,6 @@
+framework module Pods_MaidMe {
+  umbrella header "Pods-MaidMe-umbrella.h"
+
+  export *
+  module * { export * }
+}

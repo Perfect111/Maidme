@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="bM2-XN-uFG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cleaner" translatesAutoresizingMaskIntoConstraints="NO" id="gUC-o1-MUy">
+                                <rect key="frame" x="150" y="296" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gUC-o1-MUy" secondAttribute="height" multiplier="0.5 : 0.5" id="1b2-Ze-FXI"/>
+                                    <constraint firstAttribute="width" secondItem="gUC-o1-MUy" secondAttribute="height" multiplier="1:1" id="I1u-4B-pK0"/>
+                                    <constraint firstAttribute="width" secondItem="gUC-o1-MUy" secondAttribute="height" multiplier="107:107" id="LD4-OP-1vA"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1b2-Ze-FXI"/>
+                                        <exclude reference="LD4-OP-1vA"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bM2-XN-uFG" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="-20" id="Bdh-Mz-cXT"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="bM2-XN-uFG" secondAttribute="bottom" id="QYU-uQ-MzE"/>
+                            <constraint firstItem="bM2-XN-uFG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="XDg-gJ-2zy"/>
+                            <constraint firstItem="gUC-o1-MUy" firstAttribute="width" secondItem="bM2-XN-uFG" secondAttribute="width" multiplier="1/5" id="Zb6-Ib-Ipo"/>
+                            <constraint firstItem="gUC-o1-MUy" firstAttribute="centerX" secondItem="bM2-XN-uFG" secondAttribute="centerX" id="bGi-pi-YcJ"/>
+                            <constraint firstAttribute="trailing" secondItem="bM2-XN-uFG" secondAttribute="trailing" id="cfS-9f-j3F"/>
+                            <constraint firstItem="gUC-o1-MUy" firstAttribute="centerY" secondItem="bM2-XN-uFG" secondAttribute="centerY" id="w1p-sP-jw2"/>
+                            <constraint firstItem="gUC-o1-MUy" firstAttribute="height" secondItem="bM2-XN-uFG" secondAttribute="height" multiplier="0.16" id="yi6-1A-Lvh"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="yi6-1A-Lvh"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-321" y="215"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cleaner" width="126" height="126"/>
+        <image name="background" width="617" height="1104"/>
+    </resources>
+</document>
